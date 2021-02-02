@@ -1,4 +1,4 @@
-/*
+'''
 Acknowldgement: https://github.com/d0ppler1977/coderbyte/blob/master/medium/SeatingStudents.js
 
 The function SeatingStudents(arr) read the array of integers stored in arr which will be in the 
@@ -9,7 +9,7 @@ and the rest of the integers in the array will be in sorted order and will repre
  Your program should return the number of ways 2 students can be seated next to each other. 
  This means 1 student is on the left and 1 student on the right, or 1 student is directly above or below the other student.
  
-*/
+'''
 
 
 def SeatingStudents(arr):
