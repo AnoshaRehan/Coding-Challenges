@@ -3,3 +3,6 @@
 - [x] Dam-Design-Hackerrank: This is a medium level question from Hackerrank.
 - [x] Minimum-Difference-Hackerrank: A function accepts an array and returns the absolute minimum difference of the array.
 - [x] String-Challenge-Coderbyte: This is a medium level question from Coderbyte and is about balancing HTML DOM Elements provided as a string.
+
+
+**Questions are provided in the respective program files**
