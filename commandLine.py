@@ -9,9 +9,9 @@ pairs can be placed on the command line with a single
 space between each pair. Parameter tokens and values
 cannot contain equal signs but values can contains 
 spaces. The purpose of the function is to isolate
-the parameters and valyes to return a list of 
+the parameters and values to return a list of 
 parameter and value lengths. It must provide its
-result in the same formagt and in the same order
+result in the same format and in the same order
 by replacing each entry (tokens and values) by its
 corresponding length.
 
