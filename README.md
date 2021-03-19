@@ -7,4 +7,4 @@
 - [x] Command-Line-Coderbyte: The function CommandLine takes the *str* parameter being passed which represents the parameters given to a command in an old PDP system.
 - [x] Stock-Picker-Coderbyte: The function StockPicer takes the arr parameter which will contain integers that represent the amount in dollars that a single stock is worth, and return the maximum profit that could have been made by buying stock.
 
-**Questions are provided in the respective program files**
+**Questions are provided in the respective program files. Contribution/Optimized solutions will be appreciated**
