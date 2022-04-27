@@ -8,5 +8,6 @@
 - [x] Stock-Picker-Coderbyte: The function StockPicer takes the arr parameter which will contain integers that represent the amount in dollars that a single stock is worth, and return the maximum profit that could have been made by buying stock.
 - [x] Array-Addition-Coderbyte: The function ArrayAdditionI accepts an interger array and returns *true* if a summation of any elements in the array equal to the largest value in the array or *false* when no combination of elements equals the largest element.
 - [x] Mutating-Array-CodeSignal
+- [x] Dom-Tree-Codility: You are given a DOM tree and have to find the table with the largest number of cells within it.  
 
 **Questions are provided in the respective program files. Contribution/Optimized solutions will be appreciated**
