@@ -18,29 +18,25 @@ Output: true
 ''''
 
 def ArrayAdditionI(arr):
-	arr = sorted(arr)
-	maximum = arr[-1]
-	arr = arr[:1]
-	total = 0
-	
-	for i in range(len(arr)):
-	
-		total = total + arr[i]
-		if total == maximum:
-			return 'true'
-		
-		for j in range(len(arr)):
-			if j != i:
-				total = total + arr[j]
-				if total == maximum:
-					return 'true'
-		
-		for k in range(len(arr)):
-			if k != i:
-				total = total + arr[k]
-				if total == maximum:
-					return 'true'
-		
-		return 'false'
-		
+    arr = sorted(arr)
+    maximum = arr[-1]
+    arr = arr[:-1]
+    total = 0
+    
+    def check_combination(subarr, target):
+        if target == 0:
+            return True
+        if not subarr:
+            return False
+        
+        include_last = check_combination(subarr[:-1], target - subarr[-1]) # Try including the last element
+        exclude_last = check_combination(subarr[:-1], target) # Try excluding the last element
+        
+        return include_last or exclude_last
+
+    if check_combination(arr, maximum):
+        return 'true'
+    else:
+        return 'false'
+
 print(ArrayAdditionI([3, 5, -1, 8, 12]))
